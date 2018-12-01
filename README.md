@@ -1,2 +1,2 @@
 # tempCoverter
-A temperature converter
+A replica temperature converter to further practice javascript
