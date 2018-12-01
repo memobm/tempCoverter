@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+div {
+	height: 33.33vh;
+}
+
+#fahrenheit {
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+input[type=number] {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	font-family: 'Asap', sans-serif;
+	font-size: 10em;
+	background: black;
+	color: white;
+	text-align: center;
+	border: 0; 
+}
+
+/* Change the placeholder's color in the different browses
+
+::-webkit-input-placeholder { /* Chrome, Safari, and Opera */
+	color: #222222;
+}
+
+::-moz-placeholder { /*Frirefox */
+	color: #222222;
+}
+
+::-ms-input-placeholder { /* Edge */
+	color: #222222;
+}
+
+
